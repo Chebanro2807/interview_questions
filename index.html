@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW</title>
+    <link rel="stylesheet" href="style.css">
     <script src="dist/main.js" defer></script>
 </head>
 <body>
+    <div class="wrap">
+        <button class="accordion">В чем разница между null и undefined?</button>
+        <div class="status red"></div>
+    </div>
+    <div class="panel">
+        <p>undefined («неопределенный») представляет собой значение по умолчанию: <br>
+            переменной, которой не было присвоено значения, т.е. объявленной, но не инициализированной переменной; <br>
+            функции, которая ничего не возвращает явно, например, console.log(1);<br>
+            несуществующего свойства объекта. <br>
+            null — это «значение отсутствия значения». null — это значение, которое присваивается переменной явно. В примере ниже мы получаем null, когда метод fs.readFile отрабатывает без ошибок:
+        </p>
+    </div>
+
+    <div class="wrap">
+        <button class="accordion">Для чего используется оператор "&&"?</button>
+        <div class="status red"></div>
+    </div>
+    <div class="panel">
+        <p>Оператор "&&" (логическое и) находит и возвращает первое ложное значение либо последний операнд, когда все значения истинные. Он использует короткое замыкание во избежание лишних затрат.</p>
+    </div>
+
+    <div class="wrap">
+        <button class="accordion">Что такое цель события или целевой элемент (event.target)?</button>
+        <div class="status red"></div>
+    </div>
+    <div class="panel">
+        <p>Простыми словами, event.target — это элемент, в котором происходит событие, или элемент, вызвавший событие.</p>
+    </div>
 </body>
 </html>
 

@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.accordion {
+    background-color: #607D8B;
+    color: #fff;
+    cursor: pointer;
+    padding: 16px;
+    width: 90%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.panel {
+    padding: 0 18px;
+    color: #212121;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.wrap{
+    display: flex;
+    background-color: #607D8B;
+}
+
+.status{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.status:hover{
+    cursor: pointer;
+}
